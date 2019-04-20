@@ -1,0 +1,18 @@
+.form {
+	margin-top: 30vh;
+}
+.wordinput {
+	width: 25vw;
+	border: none;
+	border-bottom: 2px solid #afeeee;
+	outline: none;
+	background-color: transparent;
+	color: white;
+	text-align: center;
+  	transition: width 800ms ease-in-out;
+  	font-size: 40px;
+
+  	&:focus {
+		width: 60vw;
+	}
+}
